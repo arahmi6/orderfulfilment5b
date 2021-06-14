@@ -1,6 +1,6 @@
 # Tugas Project - Perancangan Antarmuka Teori
 
-## Kelompok 5
+Kelompok 5
 ## - 191524035 Aulia Rahmi
 ## - 191524042 Fachri M Bandang Haq
 ## - 191524044 Giusty Fadh W
