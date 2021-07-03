@@ -17,9 +17,9 @@
 			<!-- <a class="blog-logo" href="index.html"><img src="" alt="Laporan Hasil" /></a> -->
 			<ul id="menu">
 				<li class="nav-home" role="presentation"><a href="index.html">Beranda</a></li>
-				<li class="nav-article-example" role="presentation"><a href="#">Bagian 1</a></li>
-				<li class="nav-about-us" role="presentation"><a href="#">Bagian 2</a></li>
-				<li class="nav-author-page" role="presentation"><a href="#">Bagian 3</a></li>
+				<li class="nav-article-example" role="presentation"><a href="bagian1.html">Bagian 1</a></li>
+				<li class="nav-about-us" role="presentation"><a href="bagian2.html">Bagian 2</a></li>
+				<li class="nav-author-page" role="presentation"><a href="bagian3.html">Bagian 3</a></li>
 			</ul>
 		</nav>
 		<header class="main-header " style="background-image: url(assets/img/banner3.jpg)">
@@ -46,7 +46,7 @@
 						<article class="post">
 							<div class="wrapgriditem">
 									<h4 class="post-title">Rancangan Wireframe Bagian 0</h4>
-									<a class="profile" href="#"><img src="assets/img/Bagian0.png" alt="Bagian0" /></a>
+									<a class="profile" href="#"><img src="#" alt="Bagian0" /></a>
 							</div>
 					</article>
 		</main>
@@ -67,11 +67,13 @@
 		let lorem = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vitae aliquid ut soluta necessitatibus iusto praesentium architecto distinctio ratione cumque earum accusantium exercitationem aliquam temporibus animi, accusamus, quia illo dignissimos. Dolorem id non incidunt illum excepturi, porro sunt eum distinctio dolorum ex natus sed amet hic exercitationem laborum qui enim atque fuga iste quos aspernatur nihil quam totam. Eaque sapiente facere veniam eos officia quo, rerum illo totam! Ullam nulla expedita, totam corrupti accusamus maxime necessitatibus facere fugit sunt aperiam sapiente repellat, doloribus veniam, exercitationem facilis optio fugiat. Deleniti dolor necessitatibus esse facilis? Similique eos quo perferendis ad praesentium atque, esse cum laborum dolore! Necessitatibus nam corporis unde dolorum tenetur quos magni deleniti? Ut, totam obcaecati placeat deserunt quisquam quidem laborum omnis odit voluptatem sed dolores itaque. Blanditiis consequatur veniam incidunt tempore dolor voluptas debitis et, quos quasi sequi voluptates odio natus, exercitationem quia, eaque sunt beatae esse. Voluptatum unde commodi aperiam, provident laudantium eius.`;
 		let more = false;
 
-		descDOM.innerText = more ? lorem : lorem.substr(0, 499);
+		descDOM.innerHTML = more ? lorem : lorem.substr(0, 759);
+		moreDOM.innerText = more ? 'Lihat lebih sedikit' : 'Lihat lebih banyak';
 
 		function moreDescription() {
 			more = !more;
-			descDOM.innerText = more ? lorem : lorem.substr(0, 500);
+			descDOM.innerHTML = more ? lorem : lorem.substr(0, 759);
+			moreDOM.innerText = more ? 'Lihat lebih sedikit' : 'Lihat lebih banyak';
 		}
 	</script>
 </body>
