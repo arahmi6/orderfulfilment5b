@@ -32,23 +32,28 @@
 					<h2 class="page-description">Kelas 2B - Kelompok 5</h2>
 				</div>
 			</div>
-			<a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+			<a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll
+					Down</span></a>
 		</header>
 		<main id="content" class="content" role="main">
 			<div class="wraps">
 				<article class="post">
 					<div class="wrapgriditem">
 						<h2 class="post-title">Tentang Area Kerja</h2>
-						<p id="article-lorem" class="article-lorem"></p>
-						<a href="javascript:void(0)" id="read-more" onclick="moreDescription()">Lihat Lebih Banyak</a>
+						<p id="article-lorem" class="article-lorem">Area kerja merupakan bagian yang memuat informasi yang
+							diperlukan dan dikomunikasikan antar Anggota. Selain itu, area kerja juga memuat dokumentasi kegiatan
+							meeting atau diskusi via chat. </p>
+					</div>
+					<div class="wrapgriditem">
+						<h4 class="post-title">Informasi</h4>
+						<a class="profile" href="https://docs.google.com/document/d/1LvwsVE-gNnvpqCbEq1pWjfF2WRuq3l2NjGF32a5ReC8/edit?usp=sharing">Tautan Pembagian Tugas</a>
+					</div>
+					<div class="wrapgriditem">
+						<h4 class="post-title">Dokumentasi</h4>
+						<a class="profile" href="#"><img src="assets\img\areakerja1.png" alt="Diskusi" /></a>
+						<a class="profile" href="#"><img src="assets\img\areakerja2.png" alt="Diskusi" /></a>
 					</div>
 				</article>
-						<article class="post">
-							<div class="wrapgriditem">
-									<h4 class="post-title">Rancangan Wireframe Bagian 0</h4>
-									<a class="profile" href="#"><img src="#" alt="Bagian0" /></a>
-							</div>
-					</article>
 		</main>
 		<footer class="site-footer clearfix">
 			<a href="#top" id="back-to-top" class="back-top"></a>
@@ -61,21 +66,6 @@
 	<script type="text/javascript" src="assets/js/masonry.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
 	<script type="text/javascript" src="assets/js/index.js"></script>
-	<script>
-		const descDOM = document.getElementById('article-lorem');
-		const moreDOM = document.getElementById('read-more');
-		let lorem = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vitae aliquid ut soluta necessitatibus iusto praesentium architecto distinctio ratione cumque earum accusantium exercitationem aliquam temporibus animi, accusamus, quia illo dignissimos. Dolorem id non incidunt illum excepturi, porro sunt eum distinctio dolorum ex natus sed amet hic exercitationem laborum qui enim atque fuga iste quos aspernatur nihil quam totam. Eaque sapiente facere veniam eos officia quo, rerum illo totam! Ullam nulla expedita, totam corrupti accusamus maxime necessitatibus facere fugit sunt aperiam sapiente repellat, doloribus veniam, exercitationem facilis optio fugiat. Deleniti dolor necessitatibus esse facilis? Similique eos quo perferendis ad praesentium atque, esse cum laborum dolore! Necessitatibus nam corporis unde dolorum tenetur quos magni deleniti? Ut, totam obcaecati placeat deserunt quisquam quidem laborum omnis odit voluptatem sed dolores itaque. Blanditiis consequatur veniam incidunt tempore dolor voluptas debitis et, quos quasi sequi voluptates odio natus, exercitationem quia, eaque sunt beatae esse. Voluptatum unde commodi aperiam, provident laudantium eius.`;
-		let more = false;
-
-		descDOM.innerHTML = more ? lorem : lorem.substr(0, 759);
-		moreDOM.innerText = more ? 'Lihat lebih sedikit' : 'Lihat lebih banyak';
-
-		function moreDescription() {
-			more = !more;
-			descDOM.innerHTML = more ? lorem : lorem.substr(0, 759);
-			moreDOM.innerText = more ? 'Lihat lebih sedikit' : 'Lihat lebih banyak';
-		}
-	</script>
 </body>
 
 </html>
